@@ -9,6 +9,7 @@
     ./lazygit.nix
     ./neovim.nix
     ./obsidian.nix
+    ./ssh.nix
     ./starship.nix
     ./stylix.nix
     ./swaync

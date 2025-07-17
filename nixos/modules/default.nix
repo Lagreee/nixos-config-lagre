@@ -12,6 +12,7 @@
     ./net.nix
     ./nh.nix
     ./nix.nix
+    ./ssh.nix
     ./timezone.nix
     ./user.nix
     ./zram.nix
