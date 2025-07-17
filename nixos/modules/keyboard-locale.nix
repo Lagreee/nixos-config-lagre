@@ -1,7 +1,7 @@
 {
   i18n.defaultLocale = "it_IT.UTF-8";
   
-  i18n.defaultLocaleSettings = {
+  i18n.extraLocaleSettings = {
     LC_ADDRESS = "it_IT.UTF-8";
     LC_IDENTIFICATION = "it_IT.UTF-8";
     LC_MEASUREMENT = "it_IT.UTF-8";
@@ -19,5 +19,5 @@
   };
 
   console.keyMap = "it2";
-  
+
 }

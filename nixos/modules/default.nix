@@ -7,7 +7,7 @@
     ./home-manager.nix
     ./hyprland.nix
     ./kernel.nix
-    ./keyboard-locales.nix
+    ./keyboard-locale.nix
     ./mime.nix
     ./net.nix
     ./nh.nix
