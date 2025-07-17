@@ -20,6 +20,7 @@
     bc
     bottom
     brightnessctl
+    btop
     cliphist
     ffmpeg
     ffmpegthumbnailer
@@ -27,7 +28,6 @@
     git-graph
     grimblast
     htop
-    btop
     hyprpicker
     ntfs3g
     mediainfo
@@ -36,6 +36,7 @@
     ripgrep
     showmethekey
     silicon
+    tree
     udisks
     ueberzugpp
     unzip
