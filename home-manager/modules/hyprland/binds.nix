@@ -19,10 +19,10 @@ in {
 
   wayland.windowManager.hyprland.settings = {
     bind = [
-      "$mainMod SHIFT, Return, exec, $terminal"
-      "$mainMod SHIFT, C, killactive,"
-      "$mainMod SHIFT, Q, exit,"
-      "$mainMod,       R, exec, $fileManager"
+      "$mainMod,  Return, exec, $terminal"
+      "$mainMod SHIFT, Q, killactive,"
+      "$mainMod SHIFT, M, exit,"
+      "$mainMod,       Y, exec, $fileManager"
       "$mainMod,       F, togglefloating,"
       "$mainMod,       D, exec, $menu --show drun"
       "$mainMod,       P, pin,"

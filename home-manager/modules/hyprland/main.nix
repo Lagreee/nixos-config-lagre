@@ -61,7 +61,14 @@
 
       input = {
         kb_layout = "it";
-        kb_options = "grp:caps_toggle";
+        #kb_options = "grp:caps_toggle";
+
+        kb_variant = "";
+	kb_model = "";
+	follow_mouse = 1;
+	sensitivity = 0;
+	numlock_by_default = true;
+	force_no_accel = 1;
       };
 
       gestures = {
