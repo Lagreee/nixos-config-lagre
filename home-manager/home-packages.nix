@@ -42,6 +42,7 @@
     wget
     wl-clipboard
     wtype
+    yazi
     yt-dlp
     zip
 
