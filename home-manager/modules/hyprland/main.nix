@@ -37,21 +37,22 @@
         resize_on_border = true;
 
         allow_tearing = false;
-        layout = "master";
+	#layout = "master"; # Fixed new window position
+        layout = "dwindle"; # New window position is based on active window
       };
 
       decoration = {
         rounding = 0;
 
         active_opacity = 1.0;
-        inactive_opacity = 1.0;
+        inactive_opacity = 0.95;
 
         shadow = {
           enabled = false;
         };
 
         blur = {
-          enabled = false;
+          enabled = true;
         };
       };
 
@@ -117,7 +118,6 @@
         "noblur, class:^(xwaylandvideobridge)$"
         "nofocus, class:^(xwaylandvideobridge)$"
       ];
-
       workspace = [
         "w[tv1], gapsout:0, gapsin:0"
         "f[1], gapsout:0, gapsin:0"
