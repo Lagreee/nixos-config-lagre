@@ -9,5 +9,6 @@
     };
   };
 
-  services.getty.autologinUser = user;
+  # Commenta l'autologin per abilitare SDDM
+  # services.getty.autologinUser = user;
 }
