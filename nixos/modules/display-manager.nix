@@ -29,6 +29,8 @@
         Exec=uwsm start hyprland
         Type=Application
       '';
+     
+      passthru.providedSessions = [ "hyprland-uwsm" ];
     })
   ];
 }
