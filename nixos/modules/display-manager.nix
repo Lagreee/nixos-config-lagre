@@ -1,4 +1,12 @@
 { pkgs, user, ... }: {
+  # SDDM richiede X11 server anche per sessioni Wayland
+  services.xserver.enable = true;
+  
+  # Aggiungi UWSM ai pacchetti di sistema
+  environment.systemPackages = with pkgs; [
+    uwsm
+  ];
+  
   services.displayManager.sddm = {
     enable = true;
     wayland.enable = true;
