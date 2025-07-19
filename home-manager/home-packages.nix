@@ -6,6 +6,7 @@
 
     # Desktop apps
     anki
+    brave
     code-cursor
     imv
     mpv
