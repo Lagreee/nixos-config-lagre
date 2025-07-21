@@ -13,7 +13,7 @@ in {
     enable = true;
     settings = {
       default_session = {
-        command = "${tuigreet} --time --greeting 'Synchronization ratio: 100% - Welcome back' --remember --remember-session --sessions ${hyprland-session} --theme 'border=red;text=white;time=yellow;container=black;title=red;greet=white;prompt=red;input=red;action=green;button=orange'";
+        command = "${tuigreet} --time --greeting 'Present day... Present time... You are connected' --remember --remember-session --sessions ${hyprland-session} --theme 'border=cyan;text=green;time=white;container=black;title=cyan;greet=green;prompt=cyan;input=green;action=white;button=yellow'";
         user = "greeter";
       };
     };
