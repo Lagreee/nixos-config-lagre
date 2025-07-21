@@ -13,7 +13,7 @@ in {
     enable = true;
     settings = {
       default_session = {
-        command = "${tuigreet} --time --greeting 'Present day... Present time... You are connected' --remember --remember-session --sessions ${hyprland-session} --theme 'border=cyan;text=green;time=white;container=black;title=cyan;greet=green;prompt=cyan;input=green;action=white;button=yellow'";
+        command = "${tuigreet} --time --greeting 'Congratulations! You successfully connected' --remember --remember-session --sessions ${hyprland-session} --theme 'border=magenta;text=green;time=yellow;container=black;title=magenta;greet=yellow;prompt=magenta;input=green;action=white;button=red'";
         user = "greeter";
       };
     };
