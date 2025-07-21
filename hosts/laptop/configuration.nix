@@ -7,7 +7,7 @@
     ../../nixos/modules
   ];
 
-  environment.systemPackages = [ pkgs.home-manager ];
+  environment.systemPackages = [ pkgs.home-manager pkgs.greetd.tuigreet ];
 
   networking.hostName = "${user}-${hostname}";
 
