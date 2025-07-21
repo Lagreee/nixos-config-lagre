@@ -19,7 +19,7 @@ in {
       };
 
       default_session = {
-        command = "${tuigreet} --time --greeting 'Synchronization ratio: 100% - Welcome back' --theme border=red;text=white;prompt=red;time=yellow;action=green;button=orange;container=black;input=red --remember --remember-session --sessions ${hyprland-session}";
+        command = "${tuigreet} --time --greeting 'Synchronization ratio: 100% - Welcome back' --theme border=red;text=white;prompt=red;time=yellow;action=green;button=bright_yellow;container=black;input=red --remember --remember-session --sessions ${hyprland-session}";
         user = "greeter";
       };
     };
