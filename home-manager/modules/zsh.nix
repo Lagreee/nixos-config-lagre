@@ -37,16 +37,15 @@
       #  tmux attach-session -t default || tmux new-session -s default
       #fi
 
+      # Start Hyprland with UWSM
+      #if uwsm check may-start; then
+      #   exec uwsm start hyprland-uwsm.desktop
+      #fi
+
       # Start UWSM
       #if uwsm check may-start > /dev/null && uwsm select; then
       #  exec systemd-cat -t uwsm_start uwsm start default
       #fi
-      # Start UWSM solo se siamo in TTY e non già in una sessione grafica
-      if [[ -z "$DISPLAY" && -z "$WAYLAND_DISPLAY" && $(tty) == /dev/tty1 ]]; then
-        if uwsm check may-start > /dev/null && uwsm select; then
-          exec systemd-cat -t uwsm_start uwsm start default
-        fi
-      fi
     '';
   };
 }
