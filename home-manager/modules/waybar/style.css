@@ -70,3 +70,24 @@ window#waybar {
   color: #d65d0e;
   border-bottom: 5px solid #d65d0e;
 }
+
+#network {
+  margin: 0;
+  color: #83a598;
+  border-bottom: 5px solid #83a598;
+}
+
+#network.disconnected {
+  color: #cc241d;
+  border-bottom: 5px solid #cc241d;
+}
+
+#network.wifi {
+  color: #83a598;
+  border-bottom: 5px solid #83a598;
+}
+
+#network.ethernet {
+  color: #98971a;
+  border-bottom: 5px solid #98971a;
+}

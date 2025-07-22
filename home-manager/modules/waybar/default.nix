@@ -9,7 +9,7 @@
         height = 30;
         modules-left = ["hyprland/workspaces"];
         modules-center = ["hyprland/window"];
-        modules-right = ["hyprland/language" "custom/weather" "pulseaudio" "battery" "clock" "tray"];
+        modules-right = ["hyprland/language" "custom/weather" "network" "pulseaudio" "battery" "clock" "tray"];
         "hyprland/workspaces" = {
           disable-scroll = true;
           show-special = true;
@@ -35,9 +35,8 @@
         };
 
         "hyprland/language" = {
-          format-en = "🇺🇸";
-          format-ru = "🇷🇺";
-          format-he = "🇮🇱";
+            format-en = "🇬🇧";
+            format-it = "🇮🇹";
           min-length = 5;
           tooltip = false;
         };
@@ -84,6 +83,19 @@
         "tray" = {
           icon-size = 14;
           spacing = 1;
+        };
+
+        "network" = {
+          format-wifi = "  {essid} ({signalStrength}%)";
+          format-ethernet = " Connected";
+          format-linked = " {ifname} (No IP)";
+          format-disconnected = "⚠ Disconnected";
+          format-alt = "{ifname}: {ipaddr}/{cidr}";
+          on-click-right = "nm-connection-editor";
+          tooltip-format = "{ifname} via {gwaddr}";
+          tooltip-format-wifi = "  {essid} ({signalStrength}%)\n{ifname}: {ipaddr}/{cidr}\nGateway: {gwaddr}";
+          tooltip-format-ethernet = " {ifname}\n{ipaddr}/{cidr}\nGateway: {gwaddr}";
+          tooltip-format-disconnected = "Disconnected";
         };
       };
     };
